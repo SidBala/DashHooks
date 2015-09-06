@@ -22,10 +22,13 @@ var argv = require('optimist')
  
 arpListener(argv.i, function(arpData) {
     if(arpData.sender_ha === 'a0:02:dc:12:37:fa') {
+
+        if (arpData.sender_pa.o1 === 0 && arpData.sender_pa.o2 === 0 && arpData.sender_pa.o3 === 0 && arpData.sender_pa.o4 === 0) {
     if(arpData.target_ha === '00:00:00:00:00:00') {
-        console.log('Got a Hit from: ' + arpData.sender_ha);
+        console.log('Hit'.red.bold + ' from: ' + arpData.sender_ha);
     }
 
-    console.log(arpData);
+    // console.log(arpData);
+    }
     }
 })
