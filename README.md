@@ -4,4 +4,4 @@ That's where DashHooks comes in. DashHooks runs within your WiFi and monitors yo
 When a press is detected, DashHooks runs the configured script. As simple as that.
 
     npm install
-    npm start
+    node index.js -a a0:32:ab:21:37:fa -c ./sampleSlackNotiication.sh
