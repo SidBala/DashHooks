@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sid Bala <Sid.Bala@Outlook.com> (http://SidBala.com)",
   "license": "MIT",
