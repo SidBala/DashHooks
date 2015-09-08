@@ -1,6 +1,6 @@
 {
   "name": "dashhooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -14,5 +14,9 @@
     "optimist": "^0.6.1",
     "request-promise": "^0.4.3",
     "valid-url": "^1.0.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SidBala/DashHooks"
+    }
 }
