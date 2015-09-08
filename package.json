@@ -3,14 +3,14 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Sid Bala <Sid.Bala@Outlook.com> (http://SidBala.com)",
   "license": "MIT",
   "dependencies": {
     "arp-listener": "0.0.0",
     "child-process-promise": "^1.1.0",
     "colors": "^1.1.2",
+    "lodash": "^3.10.1",
     "optimist": "^0.6.1",
     "request-promise": "^0.4.3",
     "valid-url": "^1.0.9"
